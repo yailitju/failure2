@@ -1,0 +1,7 @@
+import pandas as pd
+import numpy as np
+import matpltolib.pyplot as plt
+
+data = pd.read_csv('path')
+data.head()
+data.describe()
